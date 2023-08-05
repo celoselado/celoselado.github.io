@@ -24,7 +24,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -48,16 +48,15 @@
                                 <i class="uil uil-scenery nav__icon"></i> Portfolio
                             </a>
                         </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i> Contactme
-                            </a>
-                        </li>
                     </ul>
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
 
                 <div class="nav__btns">
+                    
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -112,9 +111,6 @@
                                 Através do bootcamp, também obtive experiência em trabalhar com a metodologia do
                                 SCRUM, além de desenvolver e aprimorar habilidades interpessoais, como trabalho em
                                 equipe, proatividade e comunicação. </p>
-                            <a href="#contact" class="button button--flex">
-                                Contact Me <i class="uil uil-message button__icon"></i>
-                            </a>
                         </div>
                     </div>
 
@@ -346,8 +342,7 @@
                             </div>
 
                             <div>
-                                <i class="uil uil-graduation-cap qualification__icon"></i>
-                            Education
+                                
                                 <h3 class="qualification__title">Master in Ui/Ux</h3>
                                 <span class="qualification__subtitle">Peru - Institute</span>
                                 <div class="qualification__calendar">
@@ -362,7 +357,7 @@
             </section>
 
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
+            <section class="services section" id="services" >
                 <h2 class="section__title">Services</h2>
                 <span class="section__subtitle">What i offer</span>
 
@@ -543,28 +538,54 @@
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-            </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
 
             <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
 
-            </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-        
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Xande</h1>
+                        <span class="footer__subtitle">Full-Stack Developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://github.com/celoselado" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/celoselado/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/marcervero/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; Developed by Marcelo Alexandre</p>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
