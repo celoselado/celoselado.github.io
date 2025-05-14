@@ -943,7 +943,7 @@ background-color: var(--first-color-alt);
   .skills__container
   .portfolio__content
   .footer__container{
-    grid-template-columns: repeat(2, 1fr );
+    
   }
 
   .qualification__sections{
@@ -1044,7 +1044,7 @@ background-color: var(--first-color-alt);
   }
 
   .about__buttons{
-    justify-content: initial;
+    justify-content: center;
   }
 
   .qualification__tabs{
